@@ -97,7 +97,7 @@ void CircularList::test()
         amount--;
 
     }
-    values=CatchValuePos();
+    values=CatchValuePosition();
     cout<<"\nO valor do elemento ao qual position aponta = "<<values<<endl;
 
     PointPositionNext();
