@@ -1,22 +1,23 @@
-:**RESUMO**:
+**RESUMO**
 
 
 
-JUNIOR, JosÈ Carlos Fernandes de O.; _Custo Computacional,_ 2019. 5 f. Trabalho de Algoritmo e Estrutura de Dados (GraduaÁ„o em Engenharia Mec‚nica) - Instituto PolitÈcnico, Universidade do Estado do Rio de Janeiro, Nova Friburgo, 2019.
+JUNIOR, Jos√© Carlos Fernandes de O.; _Custo Computacional,_ 2019. 5 f. Trabalho de Algoritmo e Estrutura de Dados (Gradua√ß√£o em Engenharia Mec√¢nica) - Instituto Polit√©cnico, Universidade do Estado do Rio de Janeiro, Nova Friburgo, 2019.
 
 
 
-Com o avanÁo da tecnologia, cada dia mais, necessitamos de mais capacidade de processamento para que seja possÌvel que essa tecnologia seja utilizada. Desempenho, capacidade de armazenamento, dentre outros, s„o fatores que, juntos aos demais, s„o de total import‚ncia no desenvolvimento tecnolÛgico. Dito isso, a busca por pela otimizaÁ„o de programas computacionais È de grande import‚ncia para que todo este processo ocorra da melhor forma possÌvel. Ao tratarmos de otimizaÁ„o computacional, devemos analisar a eficiÍncia dos algoritmos usados,  nos aspectos espacial e temporal, onde, no temporal, temos o qu„o r·pido um algoritmo È executado e, no espacial, o espaÁo extra que o algoritmo necessita, sendo esta an·lise feita de acordo com o tamanho da entrada que È dada na funÁ„o e o tempo de execuÁ„o que o computador gera, para executar toda essa funÁ„o. Estas, podem ser medidas, contando o n˙mero de vezes que a operaÁ„o b·sica do algoritmo È executada, no caso temporal, e medida contando o n˙mero de unidade de memÛria consumidas pelo algoritmo, no caso da espacial. Destes dois, hoje, o tempo de execuÁ„o ainda continua sendo o mais significativo. O importante a ser tratado na otimizaÁ„o computacional, vale ressaltar, n„o se resume simplesmente a reduzir o tamanho de um algoritmo, mas sim retirar partes indesejadas, que est„o apenas ocupando um espaÁo indesejado sem resultar grande valor ao resultado final. Neste trabalho, tem-se como objetivo analisar e comparar o custo de dois tipos de buscas, a &quot;ingÍnua&quot; e a bin·ria, com o intuito de observar como diferentes algoritmos, utilizados com a mesma finalidade, podem representar uma diferenÁa de custo computacional entre o pior caso e o melhor caso.  Para isso, ser· analisado o n˙mero de iteraÁıes necess·rias para realizar ambas as buscas e tamanho da entrada. De maneira a resolver o problema proposto, foi-se utilizado as ferramentas computacionais como o Microsoft Visual Studio 2017Æ e o Gnuplot. Para a realizaÁ„o do teste do algoritmo, utilizou-se um computador IntelÆ Coreô i5, com 8 gb de memÛria ram. No trabalho, implementou-se um cÛdigo para realizaÁ„o de dois tipos de busca: bin·ria e &quot;ingÍnua&quot;. Junto a estas buscas, foram realizados testes, cinco para cada tipo de busca, pegando elementos do inÌcio do vetor, do meio do vetor, do final do vetor e 2 testes onde os elementos n„o se encontravam no vetor, onde estes que n„o se encontravam, falharam, como deveria ocorrer. Feito isso, utilizou-se o Gnuplot para a realizaÁ„o da plotagem dos gr·ficos relacionados ‡s buscas, onde no Gr·fico 1, que demostra a busca ingÍnua, tem-se um gr·fico de n˙mero de iteraÁıes por tamanho de entrada que mostra um resultado linear, como esperado, visto que em uma busca ingÍnua a complexidade È da ordem O(n). J· no Gr·fico 2, que demonstra a busca bin·ria, tem-se um gr·fico de n˙mero de iteraÁıes por tamanho de entrada no caso bin·rio, que mostra um resultado logarÌtmico, visto que na busca bin·ria a complexidade È da ordem O(log2n). Por seguir o paradigma da divis„o e conquista, a busca bin·ria se mostra mais eficiente, principalmente em casos onde s„o utilizadas entradas maiores, pois faz a busca muito mais rapidamente (menor custo computacional) se utilizando de muito menos iteraÁıes, se comparada · busca &quot;ingÍnua&quot;. Se tratando da geraÁ„o de gr·ficos na ferramenta Gnuplot, foi-se utilizado os comandos: p&#39;dadosingenuo.dat&#39; using 1:2, x para busca ingÍnua e p&#39;dados.dat&#39; using 1:2 , &#39;logdois.dat&#39; using 1:2 para a busca bin·ria.
+Com o avan√ßo da tecnologia, cada dia mais, necessitamos de mais capacidade de processamento para que seja poss√≠vel que essa tecnologia seja utilizada. Desempenho, capacidade de armazenamento, dentre outros, s√£o fatores que, juntos aos demais, s√£o de total import√¢ncia no desenvolvimento tecnol√≥gico. Dito isso, a busca por pela otimiza√ß√£o de programas computacionais √© de grande import√¢ncia para que todo este processo ocorra da melhor forma poss√≠vel. Ao tratarmos de otimiza√ß√£o computacional, devemos analisar a efici√™ncia dos algoritmos usados,  nos aspectos espacial e temporal, onde, no temporal, temos o qu√£o r√°pido um algoritmo √© executado e, no espacial, o espa√ßo extra que o algoritmo necessita, sendo esta an√°lise feita de acordo com o tamanho da entrada que √© dada na fun√ß√£o e o tempo de execu√ß√£o que o computador gera, para executar toda essa fun√ß√£o. Estas, podem ser medidas, contando o n√∫mero de vezes que a opera√ß√£o b√°sica do algoritmo √© executada, no caso temporal, e medida contando o n√∫mero de unidade de mem√≥ria consumidas pelo algoritmo, no caso da espacial. Destes dois, hoje, o tempo de execu√ß√£o ainda continua sendo o mais significativo. O importante a ser tratado na otimiza√ß√£o computacional, vale ressaltar, n√£o se resume simplesmente a reduzir o tamanho de um algoritmo, mas sim retirar partes indesejadas, que est√£o apenas ocupando um espa√ßo indesejado sem resultar grande valor ao resultado final. Neste trabalho, tem-se como objetivo analisar e comparar o custo de dois tipos de buscas, a &quot;ing√™nua&quot; e a bin√°ria, com o intuito de observar como diferentes algoritmos, utilizados com a mesma finalidade, podem representar uma diferen√ßa de custo computacional entre o pior caso e o melhor caso.  Para isso, ser√° analisado o n√∫mero de itera√ß√µes necess√°rias para realizar ambas as buscas e tamanho da entrada. De maneira a resolver o problema proposto, foi-se utilizado as ferramentas computacionais como o Microsoft Visual Studio 2017¬Æ e o Gnuplot. Para a realiza√ß√£o do teste do algoritmo, utilizou-se um computador Intel¬Æ Core‚Ñ¢ i5, com 8 gb de mem√≥ria ram. No trabalho, implementou-se um c√≥digo para realiza√ß√£o de dois tipos de busca: bin√°ria e &quot;ing√™nua&quot;. Junto a estas buscas, foram realizados testes, cinco para cada tipo de busca, pegando elementos do in√≠cio do vetor, do meio do vetor, do final do vetor e 2 testes onde os elementos n√£o se encontravam no vetor, onde estes que n√£o se encontravam, falharam, como deveria ocorrer. Feito isso, utilizou-se o Gnuplot para a realiza√ß√£o da plotagem dos gr√°ficos relacionados √†s buscas, onde no Gr√°fico 1, que demostra a busca ing√™nua, tem-se um gr√°fico de n√∫mero de itera√ß√µes por tamanho de entrada que mostra um resultado linear, como esperado, visto que em uma busca ing√™nua a complexidade √© da ordem O(n). J√° no Gr√°fico 2, que demonstra a busca bin√°ria, tem-se um gr√°fico de n√∫mero de itera√ß√µes por tamanho de entrada no caso bin√°rio, que mostra um resultado logar√≠tmico, visto que na busca bin√°ria a complexidade √© da ordem O(log2n). Por seguir o paradigma da divis√£o e conquista, a busca bin√°ria se mostra mais eficiente, principalmente em casos onde s√£o utilizadas entradas maiores, pois faz a busca muito mais rapidamente (menor custo computacional) se utilizando de muito menos itera√ß√µes, se comparada √° busca &quot;ing√™nua&quot;. Se tratando da gera√ß√£o de gr√°ficos na ferramenta Gnuplot, foi-se utilizado os comandos: p&#39;dadosingenuo.dat&#39; using 1:2, x para busca ing√™nua e p&#39;dados.dat&#39; using 1:2 , &#39;logdois.dat&#39; using 1:2 para a busca bin√°ria.
 
-Palavras-chave: Busca. IngÍnua. Bin·ria. Custo computacional. OtimizaÁ„o.
+Palavras-chave: Busca. Ing√™nua. Bin√°ria. Custo computacional. Otimiza√ß√£o.
 
-:**LISTA DE ILUSTRA«’ES**:
+                                                        
+**LISTA DE ILUSTRA√á√ïES**
 
 
 
-Gr·fico 1 - N˙mero de iteraÁıes por tamanho de entrada no caso ingÍnuo.................................05
+Gr√°fico 1 - N√∫mero de itera√ß√µes por tamanho de entrada no caso ing√™nuo.................................................05
+Gr√°fico 2 - N√∫mero de itera√ß√µes por tamanho de entrada no caso bin√°rio .......................................................................................................................05
 
-Gr·fico 2 - N˙mero de iteraÁıes por tamanho de entrada no caso bin·rio ..................................................................................................................................05
 
 
 
@@ -55,32 +56,29 @@ Gr·fico 2 - N˙mero de iteraÁıes por tamanho de entrada no caso bin·rio .........
 
 
 
+**SUM√ÅRIO**
 
-:**SUM¡RIO**:
 
-**       **
 
-**        REFER NCIAS**.....................................................................................................04
+**REFER√äNCIAS**........................................................................................................04
 
-**       **
+        **AP√äNDICE A ‚Äì** Gr√°ficos de custo computacional dos algoritmos de busca ing√™nua e binaria, dado pelo tamanho da entra e o n√∫mero de itera√ß√µes....................................................................................................05
 
-        **AP NDICE A ñ** Gr·ficos de custo computacional dos algoritmos de busca ingÍnua e binaria, dado pelo tamanho da entra e o n˙mero de iteraÁıes....................................................................................................05
 
-**               **
 
 
 
-:**REFER NCIAS**:
+**REFER√äNCIAS**
 
 
 
-KOERICH, Alessandro L. ñ Fundamentos da An·lise da Eficiencia de Algoritmos ñ 2006 ñ [https://www.ic.unicamp.br/~ripolito/peds/mc102z/aula2/notacaoAssintotica.pdf](https://www.ic.unicamp.br/~ripolito/peds/mc102z/aula2/notacaoAssintotica.pdf) ñ em: 26/12/2018.
+KOERICH, Alessandro L. ‚Äì Fundamentos da An√°lise da Eficiencia de Algoritmos ‚Äì 2006 ‚Äì [https://www.ic.unicamp.br/~ripolito/peds/mc102z/aula2/notacaoAssintotica.pdf](https://www.ic.unicamp.br/~ripolito/peds/mc102z/aula2/notacaoAssintotica.pdf) ‚Äì em: 26/12/2018.
 
-BOTELHO, Amanda ñ Custo Computacional ñ 2016 ñ [https://www.trabalhosgratuitos.com/Exatas/Engenharia/Custo-Computacional-1076191.html](https://www.trabalhosgratuitos.com/Exatas/Engenharia/Custo-Computacional-1076191.html)  ñ  em: 26/12/2018
+BOTELHO, Amanda ‚Äì Custo Computacional ‚Äì 2016 ‚Äì [https://www.trabalhosgratuitos.com/Exatas/Engenharia/Custo-Computacional-1076191.html](https://www.trabalhosgratuitos.com/Exatas/Engenharia/Custo-Computacional-1076191.html)  ‚Äì  em: 26/12/2018
 
-SONG, Siang Wu ñ Complexidade de Algoritmos ñ 2008 ñ [https://www.ime.usp.br/~song/mac5710/slides/01complex.pdf](https://www.ime.usp.br/~song/mac5710/slides/01complex.pdf) ñ em: 27/12/2018
+SONG, Siang Wu ‚Äì Complexidade de Algoritmos ‚Äì 2008 ‚Äì [https://www.ime.usp.br/~song/mac5710/slides/01complex.pdf](https://www.ime.usp.br/~song/mac5710/slides/01complex.pdf) ‚Äì em: 27/12/2018
 
-PRESTES, Edson ñ Complexidade de Algoritmos ñ 2013 ñ [http://www.inf.ufrgs.br/~prestes/Courses/Complexity/aula1.pdf](http://www.inf.ufrgs.br/~prestes/Courses/Complexity/aula1.pdf) ñ em: 05/01/2019
+PRESTES, Edson ‚Äì Complexidade de Algoritmos ‚Äì 2013 ‚Äì [http://www.inf.ufrgs.br/~prestes/Courses/Complexity/aula1.pdf](http://www.inf.ufrgs.br/~prestes/Courses/Complexity/aula1.pdf) ‚Äì em: 05/01/2019
 
 
 
@@ -108,11 +106,11 @@ PRESTES, Edson ñ Complexidade de Algoritmos ñ 2013 ñ [http://www.inf.ufrgs.br/~p
 
 
 
-**AP NDICE A ñ Gr·ficos de custo computacional dos algoritmos de busca ingÍnua e binaria, dado pelo tamanho da entra e o n˙mero de iteraÁıes**
+**AP√äNDICE A ‚Äì Gr√°ficos de custo computacional dos algoritmos de busca ing√™nua e binaria, dado pelo tamanho da entra e o n√∫mero de itera√ß√µes**
 
 
 
-Gr·fico 1 ñN˙mero de iteraÁıes por tamanho de entrada no caso ingÍnuo
+Gr√°fico 1 ‚ÄìN√∫mero de itera√ß√µes por tamanho de entrada no caso ing√™nuo
 
 https://github.com/Juniorcbrj/Algoritmos-JCFOJ/blob/b9840244b2c5fb0c0cbe40c1988b102345dcd274/buscas\_e\_custo/graficos/ingenuo.png
 
@@ -120,7 +118,7 @@ Fonte: O Autor, 2019
 
 
 
-Gr·fico 2 ñN˙mero de iteraÁıes por tamanho de entrada no caso bin·rio
+Gr√°fico 2 ‚ÄìN√∫mero de itera√ß√µes por tamanho de entrada no caso bin√°rio
 
 https://github.com/Juniorcbrj/Algoritmos-JCFOJ/blob/b9840244b2c5fb0c0cbe40c1988b102345dcd274/buscas\_e\_custo/graficos/binario.png
 
