@@ -15,7 +15,7 @@ Palavras-chave: Busca. Ingênua. Binária. Custo computacional. Otimização.
 
 
 
-Gráfico 1 - Número de iterações por tamanho de entrada no caso ingênuo........................................................................05
+Gráfico 1 - Número de iterações por tamanho de entrada no caso ingênuo.........................................................................05
 
 Gráfico 2 - Número de iterações por tamanho de entrada no caso binário ................................................................................................................................................................................................................................05
 
