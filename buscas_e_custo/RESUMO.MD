@@ -64,7 +64,7 @@ Gráfico 2 - Número de iterações por tamanho de entrada no caso binário ....
 **REFERÊNCIAS**................................................................................................................................................................................................04
 
         
-**APÊNDICE A –** Gráficos de custo computacional dos algoritmos de busca ingênua e binaria, dado pelo tamanho da entra e o número de iterações...................................................................................................................05
+**APÊNDICE A –** Gráficos de custo computacional dos algoritmos de busca ingênua e binaria, dado pelo tamanho da entra e o número de iterações................................................................................................................................................................................05
 
 
 
